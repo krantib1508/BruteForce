@@ -8,6 +8,7 @@ const Header = styled(AppBar)`
     background: primary;
 `;
     
+
 const Tabs = styled(NavLink)`
     color: #FFFFFF;
     margin-right: 20px;
@@ -20,7 +21,8 @@ const NavBar = () => {
         <Header position="static">
             <Toolbar>
                 <Tabs to="./" exact>WCE Placement Portal</Tabs>
-                <Tabs to="all" exact>TPO Members</Tabs>
+                <Tabs to="all" exact>TPO MEMBERS</Tabs>
+                
                 {/* <Tabs to="add" exact>Add student</Tabs> */}
             </Toolbar>
         </Header>
